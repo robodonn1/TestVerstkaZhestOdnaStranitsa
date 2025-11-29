@@ -1,0 +1,19 @@
+.leftText {
+    margin: 0;
+
+    &>h1 {
+        width: 833px;
+        height: 350px;
+
+        font-family: "Roboto", sans-serif;
+        font-size: 40px;
+        line-height: 70px;
+        font-weight: 700;
+
+        color: #4F2479;
+
+        margin: 0;
+        padding-top: 144px;
+        padding-left: 115px;
+    }
+}

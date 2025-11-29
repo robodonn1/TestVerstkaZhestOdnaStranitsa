@@ -1,0 +1,13 @@
+.mainBlockBG{
+    height: 3059px;
+    width: 100%;
+
+    background-color: #F6A0A9;
+
+    .mainBlock{
+        width: 1440px;
+
+        display: flex;
+        flex-direction: column;
+    }
+}

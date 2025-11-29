@@ -1,0 +1,24 @@
+.rightText{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+
+    padding-right: 222px;
+    padding-top: 127px;
+    gap: 80px;
+
+    width: 498px;
+
+    margin: 0;
+
+    &>p{
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        line-height: 45px;
+        font-weight: 700;
+        
+        color: #4F2479;
+
+        margin: 0;
+    }
+}

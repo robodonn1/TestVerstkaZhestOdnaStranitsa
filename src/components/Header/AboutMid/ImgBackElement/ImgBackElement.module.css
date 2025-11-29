@@ -1,0 +1,8 @@
+.imgBack{
+    position: absolute;
+
+    &>img{
+        position: absolute;
+        translate: -450px 50px;
+    }
+}

@@ -1,0 +1,9 @@
+.stars{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 104px;
+    gap: 24px;
+
+    translate: 50px 410px;
+}

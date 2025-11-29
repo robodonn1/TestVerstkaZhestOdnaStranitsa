@@ -1,0 +1,23 @@
+.tablets{
+    position: absolute;
+
+    &>img{
+        position: absolute;
+
+        &:nth-child(1){
+            translate: 720px 10px;
+        }
+
+        &:nth-child(2){
+            translate: 550px 370px;
+            scale: 0.7 0.65;
+            rotate: -30deg;
+        }
+
+        &:nth-child(3){
+            translate: 80px 50px;
+            scale: 0.65 0.6;
+            rotate: 40deg;
+        }
+    }
+}

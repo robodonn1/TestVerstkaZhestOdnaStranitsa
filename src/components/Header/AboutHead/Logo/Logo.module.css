@@ -1,0 +1,12 @@
+.logo{
+    display: flex;
+    width: 234px;
+    height: 42px;
+    justify-content: space-between;
+    margin: 0;
+
+    &>img{
+        translate: 0px 1px;
+        height: 46px;
+    }
+}

@@ -1,0 +1,19 @@
+.aboutHead{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 31px;
+
+    .aboutHeadComponents{
+        width: calc(100% - 80px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &>hr{
+        width: calc(100vw - 10px);
+        translate: calc((100vw - 1440px) * -1 / 2) 0px;
+        border: 1px solid #E1FD2C;
+    }
+}

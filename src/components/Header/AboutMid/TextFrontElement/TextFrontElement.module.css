@@ -1,0 +1,26 @@
+.textFront{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 195px;
+    padding-top: 177px;
+
+    &>h1{
+        font-size: 105px;
+        font-family: "Roboto", sans-serif;
+        line-height: 108.8px;
+        text-align: center;
+        width: 875px;
+        color: #E1FD2C;
+        font-weight: 400;
+    }
+
+    &>p{
+        font-size: 24px;
+        font-family: "Roboto", sans-serif;
+        line-height: 30px;
+        color: #E1FD2C;
+        width: 358px;
+    }
+}

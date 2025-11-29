@@ -1,0 +1,19 @@
+.slogan {
+    width: 320px;
+    height: 40px;
+    translate: 0px 1px;
+    margin: 0;
+
+    background-color: #E1FD2C;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &>p {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        line-height: 18px;
+        color: #16774A;
+    }
+}

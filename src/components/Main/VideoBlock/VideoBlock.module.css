@@ -1,0 +1,30 @@
+.videoBlock{
+    width: 1206px;
+    height: 681px;
+
+    margin-top: 139px;
+
+    .player{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+
+        translate: 443px 180px;
+
+        .circle{
+            position: absolute;
+
+            width: 320px;
+            height: 320px;
+            border-radius: 50%;
+
+            background-color: transparent;
+            border: 2px solid #E1FD2C;
+        }
+
+        &>img{
+            position: absolute;
+            translate: 129px 105px;
+        }
+    }
+}
