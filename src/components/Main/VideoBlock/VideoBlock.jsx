@@ -1,7 +1,7 @@
 import styles from './VideoBlock.module.css';
 
-import triangle from '../../../../public/sticker/triangle.svg'
-import video from '../../../../public/sticker/Vido.png';
+import triangle from '/sticker/triangle.svg'
+import video from '/sticker/Vido.png';
 
 function VideoBlock() {
     

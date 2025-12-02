@@ -1,7 +1,7 @@
-import NChar from '../../../../../public/logoChars/N.svg';
-import OChar from '../../../../../public/logoChars/O.svg';
-import DChar from '../../../../../public/logoChars/D.svg';
-import ZChar from '../../../../../public/logoChars/Z.svg';
+import NChar from '/logoChars/N.svg';
+import OChar from '/logoChars/O.svg';
+import DChar from '/logoChars/D.svg';
+import ZChar from '/logoChars/Z.svg';
 
 import styles from './Logo.module.css';
 

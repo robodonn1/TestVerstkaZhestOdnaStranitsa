@@ -1,0 +1,28 @@
+.feedbackBackground {
+    position: absolute;
+
+    .horizontalLines {
+        position: absolute;
+        display: flex;
+        margin-left: 240px;
+        gap: 240px;
+
+        &>hr {
+            height: 1200px;
+            border: 1px solid #16774A;
+        }
+    }
+
+    .verticalLines {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin-top: 240px;
+        gap: 240px;
+
+        &>hr {
+            width: calc(100vw - 19px);
+            border: 1px solid #16774A;
+        }
+    }
+}

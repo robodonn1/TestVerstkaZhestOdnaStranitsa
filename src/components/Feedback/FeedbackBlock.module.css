@@ -1,0 +1,10 @@
+.feedbackBg {
+    width: 100%;
+    height: 1910px;
+
+    background-color: #BBD4D0;
+
+    .feedback{
+        width: 1440px;
+    }
+}

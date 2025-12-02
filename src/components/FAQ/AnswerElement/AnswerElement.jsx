@@ -1,6 +1,6 @@
 import styles from './AnswerElement.module.css';
 
-import plus from '../../../../public/sticker/plus.svg';
+import plus from '/sticker/plus.svg';
 
 function AnswerElement({ answerText }) {
 

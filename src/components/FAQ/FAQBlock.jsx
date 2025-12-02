@@ -1,5 +1,6 @@
 import AnswerElement from './AnswerElement/AnswerElement';
 import styles from './FAQBlock.module.css';
+import lents from '/sticker/lents.png';
 
 function FAQBlock() {
 
@@ -19,6 +20,7 @@ function FAQBlock() {
                     <AnswerElement answerText="Is Noodz volledig eco-friendly, vegan en klimaatneutraal?" />
                     <hr />
                 </div>
+                <img src={lents} alt="" />
             </div>
         </>
     );

@@ -1,6 +1,6 @@
 import styles from './TabletElement.module.css';
 
-import grayTablet from '../../../../../public/tablet/greyTablet.svg';
+import grayTablet from '/tablet/greyTablet.svg';
 
 function TabletElement() {
     

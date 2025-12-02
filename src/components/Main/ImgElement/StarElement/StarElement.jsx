@@ -1,6 +1,6 @@
 import styles from './StarElement.module.css';
 
-import star from '../../../../../public/sticker/Star.svg';
+import star from '/sticker/Star.svg';
 
 function StarElement() {
     

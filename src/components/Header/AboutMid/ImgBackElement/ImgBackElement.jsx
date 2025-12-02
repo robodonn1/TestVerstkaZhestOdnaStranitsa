@@ -1,7 +1,7 @@
 import styles from './ImgBackElement.module.css';
 import TabletsImages from './TabletsImages/TabletsImages';
 
-import Oval from '../../../../../public/tablet/oval.svg';
+import Oval from '/tablet/oval.svg';
 
 function ImgBackElement() {
 

@@ -32,4 +32,11 @@
             translate: calc((100vw - 1440px) / 2 * -1);
         }
     }
+
+    &>img{
+        position: absolute;
+        width: calc(100vw - 15px);
+        translate: 0px -300px;
+        z-index: 1;
+    }
 }

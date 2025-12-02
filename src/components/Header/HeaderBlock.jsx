@@ -3,7 +3,7 @@ import AboutMidElement from "./AboutMid/AboutMidElement";
 
 import styles from './HeaderBlock.module.css';
 
-import Chel from '../../../public/sticker/chel.png';
+import Chel from '/sticker/chel.png';
 
 function HeaderBlock() {
 

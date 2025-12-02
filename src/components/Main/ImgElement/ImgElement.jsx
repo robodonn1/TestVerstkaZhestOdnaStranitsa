@@ -1,7 +1,7 @@
 import styles from './ImgElement.module.css';
 import TabletElement from './TabletElement/TabletElement';
 
-import people from '../../../../public/sticker/peoples.png';
+import people from '/sticker/peoples.png';
 import StarElement from './StarElement/StarElement';
 
 function ImgElement() {

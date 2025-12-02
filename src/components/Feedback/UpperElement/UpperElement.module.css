@@ -1,0 +1,103 @@
+.upperElement {
+    position: relative;
+    z-index: 1;
+    padding-top: 260px;
+
+    .hashTag {
+        width: 214px;
+        height: 63px;
+
+        background-color: #E1FD2C;
+        border: 2px solid #4F2479;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &>p {
+            font-family: "Roboto", sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 24px;
+
+            color: #4F2479;
+        }
+    }
+
+    .angleBlock {
+        width: 490px;
+        height: 515px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #E1FD2C;
+        border: 3px solid #4F2479;
+
+        position: absolute;
+        z-index: -1;
+
+        &>hr {
+            width: 490px;
+            border: 1px solid #4F2479;
+        }
+
+        &>h1 {
+            font-family: "Roboto", sans-serif;
+            font-size: 120px;
+            line-height: 84px;
+            font-weight: 100;
+
+            color: #4F2479;
+        }
+
+        &>img {
+            position: absolute;
+        }
+
+        &>div {
+            position: absolute;
+            padding: 10px 15px;
+            border: 1px solid #4F2479;
+            translate: 100px 200px;
+
+            &>p{
+                font-family: "Roboto", sans-serif;
+                font-size: 30px;
+
+                color: #4F2479;
+            }
+        }
+
+        &:nth-child(2) {
+            margin-left: 15px;
+            rotate: -18.35deg;
+            translate: 0px -30px;
+
+            &>img{
+                rotate: 30deg;
+                translate: -80px 60px;
+            }
+        }
+
+        &:nth-child(3) {
+            margin-left: 449px;
+            rotate: 18.35deg;
+            translate: 0px -30px;
+        }
+
+        &:nth-child(4) {
+            margin-left: 900px;
+            rotate: -18.35deg;
+            translate: 0px -30px;
+
+            &>img{
+                rotate: 70deg;
+                translate: 150px 50px;
+                scale: 1.2 1.2;
+            }
+        }
+    }
+}

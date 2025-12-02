@@ -1,5 +1,5 @@
 import styles from './TabletsImages.module.css';
-import tablet from '../../../../../../public/tablet/tablet.svg';
+import tablet from '/tablet/tablet.svg';
 
 function TabletsImages() {
 
